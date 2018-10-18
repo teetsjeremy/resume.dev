@@ -372,7 +372,7 @@ button[type="submit"] {
 
 /*--------------------------------------------Main.html*/
 .landing {
-    background: url("../images/basshunter-wallpapers-30256-1342843.jpg.jpg");
+    background: url("https://raw.githubusercontent.com/teetsjeremy/resume/master/basshunter-wallpapers-30256-1342843.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -384,11 +384,19 @@ button[type="submit"] {
     
 }
 
-.h6 {
+h6 {
     position: fixed;
     top: 50%;
     left: 50%;
     /* bring your own prefixes */
     transform: translate(-50%, -50%);
     font-family: 'Permanent Marker', cursive;
+    color: #fafafa;
+    font-size: 50px;
+}
+
+p6 {
+    font-family: 'Permanent Marker', cursive;
+    color: #fafafa;
+    font-size: 40px;
 }
