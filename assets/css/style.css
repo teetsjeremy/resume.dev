@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Exo|Roboto:100,200,300,400,500");
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 /*-----------------------------------------Colors*/
 
 .bg-color-name-title {
@@ -369,9 +370,9 @@ button[type="submit"] {
     }
 }
 
-
-.image{
-    background: url("../images/basshunter-wallpapers-30256-1342843.jpg");
+/*--------------------------------------------Main.html*/
+.landing {
+    background: url("../images/basshunter-wallpapers-30256-1342843.jpg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -380,11 +381,14 @@ button[type="submit"] {
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
+    
 }
 
-.row-image{
-    margin-left: 90px;
-    color:#ffffff;
-    clear:both;
+.h6 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    font-family: 'Permanent Marker', cursive;
 }
-
