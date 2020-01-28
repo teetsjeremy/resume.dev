@@ -329,6 +329,18 @@ footer .cv-pdf i:hover {
     font-family: "Exo", sans-serif;
     font-weight: 500;
 }
+.timeline-item::after{
+    width:12px;
+    height:12px;
+    display:block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content:'';
+    background: #fafafa;
+
+}
 
 /*--------------------------------------------Contact*/
 .contact-heading {
