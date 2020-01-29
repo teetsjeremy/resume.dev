@@ -7,8 +7,7 @@ It is my plan to convey my interest in web development from the front end to the
 
 As a recruiter, I want to see the works and stylings of a junior developer, so that I can find potential candidates for a team.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
-
+Wireframe documented and stored in markup file of environment
 Features
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
@@ -29,7 +28,7 @@ Technologies Used
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
 JQuery
-The project uses JQuery to simplify DOM manipulation.
+The project uses JQuery from getbootstrap.com to simplify DOM manipulation.
 Testing
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
@@ -64,11 +63,13 @@ Credits
 
 Content
 
-The text for section Y was copied from the Wikipedia article Z
+Text for page was written by me.
 Media
 
 The photos used in this site were obtained from ...
 <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@siora18?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Siora Photography"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Siora Photography</span></a>
 Acknowledgements
 
-I received inspiration for this project from X
+navbar minimized status borrowed from:
+    https://www.codeply.com/go/iaM1zcNsQB/bootstrap-navbar-always-collapsed
+I received inspiration for this project from Haley Schafer Porforlio, https://code-institute-solutions.github.io/StudentExampleProjectGradeFour/

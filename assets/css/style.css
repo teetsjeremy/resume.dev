@@ -1,9 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Exo|Roboto:100,200,300,400,500");
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 /*-----------------------------------------Colors*/
-
-.bg-color-name-title {
-    background-color: #676767;
+.jumbotron {
+    background-attachment: fixed;
+    background-image: url("../images/white-and-blue-abstract-painting-3591557.jpg");
+    background-size: cover;
+    margin-bottom: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    color: #E0FFF8;
 }
 
 .bg-color-three-reasons {
@@ -24,22 +30,6 @@
 
 .bg-color-contact {
     background-color: #ffffff;
-}
-
-.ul-menu-color-home{
-    background-color:#e67e22;
-}
-
-.ul-menu-color-resume{
-    background-color: #9b59b6;
-}
-
-.ul-menu-color-contact{
-    background-color:#3498db;
-}
-
-.ul-menu-color-download{    
-    background-color:#525252;
 }
 
 /*-----------------------------------------Special Paddings/Margins/Text*/
@@ -68,7 +58,7 @@ h4 {
 }
 
 .section-column{
-    padding:0 30px;
+    padding:30px;
     float:none;
     display: table-cell;
     color: #000000;
@@ -87,19 +77,71 @@ h4 {
     height: 50px;
 }
 
+/*----------NAVBAR---------*/
+
+.navbar {
+    background: none;
+    border-color: transparent;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-collapse {
+    text-align: right;
+    border-top: 1px solid transparent;
+    overflow-x: hidden;
+}
+
+.navbar-nav li a {
+    padding: 20px 25px 15px 25px;
+    color: transparent;
+    
+}
+
+
+.language {
+    display: inline-block;
+    padding-right: 20px;
+    line-height: 44px;
+}
+
+.language:hover {
+    color: #564F6F!important;
+    text-decoration: none;
+}
+
+a {
+    background-color: #00000000;
+    color: #888888;
+    font-size: 1.12em;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    color: #564F6F;
+}
+
+.navbar-right {
+    float: right!important;
+}
+
 /*-----------------------------------------Heading*/
 
-header {
-    margin: 0;
+.container-top {
+    padding-left: 12px;
+    text-align: center;
 }
 
 .heading {
     margin-left: 50px;
 }
 
-
 .logo {
-    background: url("../images/28.jpg");
+    background: url("../images/IMG_0239.JPG");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -148,25 +190,6 @@ header {
     height: 120px;
 }
 
-
-.menuitem a i {
-    padding-top: 22px;
-    display: block;
-    color: #fafafa;
-    font-size: 26px;
-}
-
-.menuitem span {
-    display: block;
-    width: 100%;
-    padding-top: 5px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 300;
-    letter-spacing: 2px;
-}
-
 /*````````````````````````````````````````````Body*/
 
 body {
@@ -190,6 +213,9 @@ body {
 }
 
 /*--------------------------------------------Personal Info*/
+.personal-info {
+    height:100vh;
+}
 
 .personal-info-item {
     margin-bottom: 20px;
@@ -305,43 +331,6 @@ footer .cv-pdf i:hover {
     height: 25px;
 }
 
-
-/*--------------------------------------------Work History*/
-.timeline-item {
-    padding:4em 2em 0em 2em;
-    position: relative;
-    color: #fafafa;
-    border-left: 1px solid;
-}
-
-.timeline-item p{
-    padding:0;
-    margin:0;
-    color: black;
-}
-
-.timeline-item::before{
-    content: attr(dates);
-    position: absolute;
-    left: 2.5em;
-    top: 3em;
-    display:block;
-    font-family: "Exo", sans-serif;
-    font-weight: 500;
-}
-.timeline-item::after{
-    width:12px;
-    height:12px;
-    display:block;
-    top: 2.4em;
-    position: absolute;
-    left: -6px;
-    border-radius: 12px;
-    content:'';
-    background: #fafafa;
-
-}
-
 /*--------------------------------------------Contact*/
 .contact-heading {
     font-family: "Exo", sans-serif;
@@ -382,33 +371,40 @@ button[type="submit"] {
     }
 }
 
-/*--------------------------------------------Main.html*/
-.landing {
-    background: url("https://raw.githubusercontent.com/teetsjeremy/resume/master/basshunter-wallpapers-30256-1342843.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 720px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
-    
-}
-
-h6 {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    /* bring your own prefixes */
-    transform: translate(-50%, -50%);
-    font-family: 'Permanent Marker', cursive;
-    color: #fafafa;
-    font-size: 50px;
-}
-
-p6 {
-    font-family: 'Permanent Marker', cursive;
-    color: #fafafa;
-    font-size: 40px;
+@media (max-width: 5000px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,
+    .navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in {
+        display: block !important;
+    }
 }
