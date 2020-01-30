@@ -20,7 +20,7 @@
     height: 100vh;
     width: 100vw;
     z-index: 1;
-    color: #f59b2d;
+    color: #000000;
 }
 
 .bg-color-three-reasons {
@@ -31,6 +31,11 @@
     background-color: #f4f4f4a3;
 }
 
+
+
+.text-center {
+     color: lightgoldenrodyellow;   
+}
 /*-----------------------------------------Special Paddings/Margins/Text*/
 
 h1,
