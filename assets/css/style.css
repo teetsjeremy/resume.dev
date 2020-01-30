@@ -115,7 +115,7 @@ h4 {
 }
 
 a {
-    background-color: #00000000;
+    background-color: #44434382;
     color: #888888;
     font-size: 1.12em;
     padding-left: 10px;
@@ -135,6 +135,10 @@ a {
 
 .navbar-right {
     float: right!important;
+}
+
+inverse .navbar-nav li a:focus, .navbar-inverse .navbar-nav li a:hover {
+    background-color: #44434382;
 }
 
 /*-----------------------------------------Heading*/
