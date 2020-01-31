@@ -23,11 +23,10 @@ Technologies Used
 - send email - eventually I will implement the ability to send an email through the provided form
 
 ## Technologies Used
-- [Bootstrap grid system](https://getbootstrap.com)
-The project uses the grid and responsive layout of **bootstrap** 
-- [JQuery](https://jquery.com)
-The project uses **JQuery** from getbootstrap.com to simplify DOM manipulation.
-Testing
+1. [Bootstrap grid system](https://getbootstrap.com)
+    1.The project uses the grid and responsive layout of **bootstrap** 
+2. [JQuery](https://jquery.com)
+    1.The project uses **JQuery** from getbootstrap.com to simplify DOM manipulation.
 
 ## Testing
 Testing was performed using the inpsect editor of google chrome for responsive layout and function on the IPad and IPhone X.
